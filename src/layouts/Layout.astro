@@ -1,0 +1,46 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style is:global>
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+  * {
+    --main-color-White: hsl(0, 0%, 100%);
+    --second-color-Light-gray: hsl(212, 45%, 89%);
+    --main-color-Grayish-blue: hsl(220, 15%, 55%);
+    --second-color-Dark-blue: hsl(218, 44%, 22%);
+  }
+  :root {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 15px;
+  }
+  html {
+    font-family: "Outfit";
+	box-sizing: border-box;
+    background-color: var(--second-color-Light-gray);
+  }
+</style>

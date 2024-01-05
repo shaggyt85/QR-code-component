@@ -17,8 +17,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/shaggyt85/QR-code-component)
+- Live Site URL: [vercel](https://qr-code-component-xi-bay.vercel.app/)
 
 
 ### Built with
@@ -40,5 +40,5 @@ En resumen, Astro 3.0 nos brinda un impulso en el rendimiento, mientras que la a
 
 ## Author
 
-- Website - [Shaggyt85](https://www.your-site.com)
+- Website - [Shaggyt85](https://qr-code-component-xi-bay.vercel.app/)
 - Twitter - [@shaggyt851](https://www.twitter.com/shaggyt851)
